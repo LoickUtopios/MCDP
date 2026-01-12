@@ -44,4 +44,20 @@ DROP COLUMN phone;
 ALTER TABLE Personne
 RENAME TO Person;
 
--- 
+-- Créer une table avec des contraintes
+CREATE TABLE IF NOT EXISTS Salarie (
+  -- Primary Key permet d'ajouter une contrainte de type clé primaire (UNIQUE + NOT NULL)
+  salarie_id INT AUTO_INCREMENT PRIMARY KEY,
+  -- Not Null est une contrainte empechant l'absence de valeur
+  prenom VARCHAR(255) NOT NULL,
+  nom VARCHAR(255) NOT NULL,
+  -- La contrainte CHECK permet d'ajouter un mécanisme de vérification
+  age INT NOT NULL CHECK (age >= 18),
+  -- La contrainte DEFAULT permet de définir une valeur par défaut en cas d'absence de valeur.
+  salaire DECIMAL DEFAULT 1500.0
+  service_id INT NOT NULL,
+  -- Il est possible d'ajouter des contraintes nommée avec le mot-clé CONSTRAINT
+  -- Pour les clé étrangères, nous devons renseigner le chams de la table salarie qui sera notre clé-étrangère.
+  -- Puis dans REFERENCES, nous devons spécifier la table et la clé primaire qui serait en relation.
+  CONSTRAINT fk_service_id FOREIGN KEY (service_id) REFERENCES Services(service_id) 
+)
