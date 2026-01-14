@@ -130,3 +130,23 @@ SELECT AVG(age) AS age_moyen, service_id
 FROM salarie
 GROUP BY service_id
 HAVING AVG(age) >= 30; 
+
+-- Les sous-requetes 
+-- Elles peuvent être placé dans le WHERE afin de récupérer un résultat au préalable 
+SELECT prenom, nom, salaire
+FROM salarie
+WHERE salaire = (SELECT MAX(salaire) FROM salarie);  
+
+-- Nous pouvons également effectuer notre sous-requete dans une autre table.
+SELECT prenom, nom, service_id
+FROM salarie
+WHERE service_id = (SELECT service_id FROM services WHERE libelle = 'RH'); 
+
+-- La sous-requete peut être placé dans le FROM, dans ce cas le résultat de la
+-- sous-requete agira comme une table temporaire.
+-- Attention de ne récupérer que des données présentes dans la table temporaire.
+SELECT prenom, nom, salaire, age
+FROM (SELECT * FROM salarie WHERE age > 25) AS employe_plus_de_30_ans
+WHERE salaire > 2000; 
+
+
