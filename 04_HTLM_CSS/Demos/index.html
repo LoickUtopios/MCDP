@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Demo de HTML</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="#HTML, #code, #Laho"/>
+        <meta name="description" content="La page d'accueil de notre demo HTLM"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Ceci est un commentaire -->
+
+        <!-- Le header permet d'organiser la partie en-tete de notre page (titre, logo) -->
+        <header>
+            <!-- Les balises h1 à h6 permettent d'afficher des titres (du plus grand au plus petit) -->
+            <h1>Bienvenue à cette demo de HTML !!</h1>
+        </header>
+        
+        <!-- Le nav regroupe toute la partie de navigation vers nos différentes pages -->
+        <nav>
+            <!-- La balise a est un lien hypertext menant vers la référence (href) donné -->
+            <a href="https://www.w3schools.com/html/default.asp">Lien vers un cours de HTML</a>
+            <!-- Nous pouvons donner le chemin relatif vers nos différentes pages en interne -->
+            <a href="page1.html">Lien vers une autre page perso</a>
+        </nav>
+
+        <!-- Cette balise affiche un trait horizontal -->
+        <hr>
+
+        <!-- La balise main regroupe notre contenue principal -->
+        <main>
+            <h2>Sous-titre h2</h2>
+            <h3>Encore un sous-titre (h3)</h3>
+
+            <!-- La balise p est un bloc de texte -->
+            <p>Ceci est un paragraphe qui peut contenir pas mal de texte.</p>
+
+            <!-- Les balises inlines sont des balises pouvant être mise à l'intérieur d'autres balises avec de modifier un comportement mais sans changer la structure -->
+            <p>Ceci est un texte <strong>en gras</strong></p>
+            <p>Ceci est un texte <em>en italique</em></p>
+            <p>Ceci est un texte <mark>surligné</mark></p>
+
+            <q>Ceci est une citation</q>
+
+            <blockquote>C'est une citation sur plusieurs lignes</blockquote>
+
+            <pre>
+                // Ceci est du code
+                int a = 5;
+                Console.WriteLine("Voici la valeur de a " + a); 
+            </pre>
+
+            <!-- ul est la balise pour les liste à puces -->
+            <ul>
+                <li>Premier élément à puce</li>
+                <li>Second élément à puce</li>
+                <li>Troisième élément à puce</li>
+                <li>Quatrième élément à puce</li>
+            </ul>
+
+            <!-- Liste numéroté -->
+            <ol>
+                <li>Premier élément ordonné</li>
+                <li>Second élément ordonné</li>
+                <li>Troisième élément ordonné</li>
+                <li>Quatrième élément ordonné</li>
+            </ol>
+
+            <ol type="a">
+                <li>Premier élément ordonné</li>
+                <li>Second élément ordonné</li>
+                <li>Troisième élément ordonné</li>
+                <li>Quatrième élément ordonné</li>
+            </ol>
+
+            <!-- Cette balise marque le début d'une table -->
+            <table>
+                <!-- Le thead est l'entete de notre tableau (noms de colonnes) -->
+                <thead>
+                    <!-- th est une valeur d'entré de notre entete (colonne) -->
+                    <th>Etudiant</th>
+                    <th>Matiere</th>
+                    <th>Note</th>
+                </thead>
+                <!-- tbody est le corps de notre tableau (les différentes lignes) -->
+                <tbody>
+                    <!-- tr est une ligne de notre tableau -->
+                    <tr>
+                        <!-- td est une donnée dans cette ligne -->
+                        <td>Toto</td>
+                        <td>Math</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Tata</td>
+                        <td>Français</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Titi</td>
+                        <td>Sport</td>
+                        <td>19</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Form est une balise regroupant les informations d'un formulaire  -->
+            <form method="get">
+                <!-- label est une balise pour indiquer le type d'information requis dans le input -->
+                <label for="inputText">Insérer du texte</label>
+                <!-- input est une balise d'insertion de donnée (par défaut, du texte) -->
+                <input type="text" id="inputText" required> 
+
+                <!-- La balise input possède différent type selon l'information nécessaire -->
+                 <!-- type text, du texte simple -->
+                <label for="inputText2">Insérer du texte</label>
+                <!-- placeholder est le texte grisé présent dans le input avant insertion de données -->
+                <input type="text" id="inputText2" placeholder="Texte par défaut"> 
+
+                <!-- type number, un nombre (on peut lui préciser le min/max/step) -->
+                <label for="inputNumber">Insérer un nombre</label>
+                <input type="number" id="inputNumber" min="0" max="10"> 
+
+                <!-- le type date, une date (avec un calendrier)-->
+                <label>Insérer une date
+                    <input type="date">
+                </label>
+
+                <!-- Le type range, est une "règle gradué" de plusieurs valeurs -->
+                <label>Insérer une plage de valeur
+                    <input type="range" min="0" max="200" step="50" list="markers">
+                    <datalist id="markers">
+                        <option value="0" label="0">0</option>
+                        <option value="50" label="50">50</option>
+                        <option value="100" label="100">100</option>
+                        <option value="150" label="150">150</option>
+                        <option value="200" label="200">200</option>
+                    </datalist>
+                </label>
+
+                <!-- type password, mot de passe (le texte n'est affiché qu'avec des * ) -->
+                <label>Mot de passe :
+                    <input type="password" name="inputPassword" id="inputPassword">
+                </label>
+
+                <!-- checkbox, boite de sélection avec des cases à cocher -->
+                <label>Boite de sélection
+                    <input type="checkbox" name="inputCheckbox" id="inputCheckbox">
+                </label>
+
+                <!-- fieldset est un groupe au sein du formulaire -->
+                <fieldset>
+                    <legend>Radio boutton</legend>
+
+                    <label>Premier point
+                        <input type="radio" name="inputRadio" id="inputRadio">
+                    </label>
+                    <label>Deuxieme point
+                        <input type="radio" name="inputRadio2" id="inputRadio2">
+                    </label>
+                    <label>Troisieme point
+                        <input type="radio" name="inputRadio3" id="inputRadio3">
+                    </label>
+                </fieldset>
+
+                <!-- Pour les listes déroulante, nous utilisons 'select' suvie de 'option' pour chaque choix de la liste déroulante -->
+                <select name="selectInput" id="selectInput">
+                    <option value="1">Option 1</option>
+                    <option value="2" selected>Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+
+                <!-- Un formulaire doit etre envoyé soit par le biais d'un input ou d'une button de type submit -->
+                <input type="submit">
+                <button type="submit">Bouton d'envoi</button>
+            </form>
+            
+            <!-- la balise img permet d'insérer des images dans notre page -->
+            <!-- src est la source de l'image (chemin relatif de notre dossier ou lien http vers l'image) -->
+            <!-- alt est le message qui sera affiché si l'image n'est pas trouvé -->
+            <img 
+                src="https://static.vecteezy.com/ti/photos-gratuite/t2/41261629-ai-genere-hilarant-moment-de-excite-chien-en-essayant-a-capture-tennis-balle-en-l-air-photo.jpg" 
+                alt="Chien amusant"
+                width="800"
+                >
+
+            <!-- figure permet de regrouper une image avec une légende -->
+            <figure>
+                <img 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEh7ae_ZXbhPzb0Ma6DZFdWGEVgYg2XSSHEQ&s" 
+                    alt="Chien amusant"
+                    width="400"
+                    >
+                <!-- figcaption est la légende de notre image -->
+                <figcaption>Légende de notre image</figcaption>
+            </figure>
+
+        </main>
+    </body>
+</html>
