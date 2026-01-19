@@ -26,11 +26,19 @@ h1, h2 {
     color: blue;
 }
 
+.text {
+    color: aqua;
+}
+
 /* Sélecteur par id */
 
 #unique {
     font-style: italic;
     color: blueviolet;
+}
+
+#special {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Sélecteur descendant */ 
