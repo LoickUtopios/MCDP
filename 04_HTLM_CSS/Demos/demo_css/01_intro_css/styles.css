@@ -1,0 +1,21 @@
+/* Commentaire CSS */
+
+/* 
+    Syntaxe CSS :
+
+    Chaque règles commence par un sélecteur, suivi d'un bloc de déclaration.
+    Les règles CSS sont écrites entre {}.
+    Chaque déclaration se compose d'une propriété, suivie d'une (:), puis de la valeur de cette propriété.
+    Les déclarations sont séparé par des (;)
+
+    selecteur {
+        propriete: valeur;
+        propriete: valeur2;
+    }
+*/
+
+/* Styles spécifiques pour les paragraphes dans tout le site */
+p {
+    color: green;
+    font-size: 21px !important;
+}

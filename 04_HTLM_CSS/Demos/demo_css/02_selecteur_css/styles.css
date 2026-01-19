@@ -1,0 +1,51 @@
+/* Sélecteur universel */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Sélecteur de base */
+p {
+    color: red;
+}
+
+h1, h2 {
+    color: forestgreen
+}
+
+/* Sélecteur classe */ 
+
+.highlight {
+    font-weight: bold;
+    color: blue;
+}
+
+/* Sélecteur par id */
+
+#unique {
+    font-style: italic;
+    color: blueviolet;
+}
+
+/* Sélecteur descendant */ 
+
+ul li {
+    color: darkblue;
+}
+
+ol li {
+    color: deeppink;
+}
+
+/* Style intéractifs */
+
+h2:hover {
+    color: coral;
+    font-weight: bolder;
+}

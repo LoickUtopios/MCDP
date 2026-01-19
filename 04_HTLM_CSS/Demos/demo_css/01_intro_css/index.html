@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemples d'application de CSS en HTML avec priorités</title>
 
+    <!-- Lien vers un fichier CSS externe -->
+    <link rel="StyleSheet" href="styles.css">
+
+    <!-- CSS en interne -->
+    <style>
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+    </style>
+
 </head>
 <body>
     <h1>CSS : Cascading StyleSheet (feuille de style en cascade)</h1>
@@ -12,7 +23,7 @@
     <h2>Différentes façons d'appliquer du CSS en HTML</h2>
     <section>
         <h3>CSS en ligne</h3>
-        <p>Ce style de CSS est défini directement dans l'attribut style d'une balise HTML.</p>
+        <p style="color: red;">Ce style de CSS est défini directement dans l'attribut style d'une balise HTML.</p>
     </section>
     <section>
         <h3>CSS interne</h3>
