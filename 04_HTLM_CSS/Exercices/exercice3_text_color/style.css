@@ -1,0 +1,25 @@
+h1 {
+    font-size: 32px;
+    color: darkblue;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.highlight {
+    display: inline-block;
+    color: red;
+    width: 110px;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+    color: white; 
+    background-color: green;
+    text-align: center;
+}
+
