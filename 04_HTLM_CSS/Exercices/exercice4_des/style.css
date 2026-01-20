@@ -1,0 +1,40 @@
+[id^="dice"] {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background-color: coral;
+    border-radius: 3.5vw;
+    display: inline-block;
+}
+
+[id^="dice"] div {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+[class^="top"] {
+    top: 10%; 
+}
+
+[class^="middle"] {
+    top: calc(50% - 10%); 
+}
+
+[class^="bottom"] {
+    bottom: 10%; 
+}
+
+[class$="left"] {
+    left: 10%; 
+}
+
+[class$="center"] {
+    left: calc(50% - 10%); 
+}
+
+[class$="right"] {
+    right: 10%; 
+}
