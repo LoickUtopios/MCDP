@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block">Block</div>
+        <span class="inline">Inline 1</span>
+        <span class="inline">Inline 2</span>
+        <div class="inline-block">Inline-block 1</div>
+        <div class="inline-block">Inline-block 2</div>
+        <div class="none">None (Où peut-on tout de même me voir ?)</div>
+    </div> 
+    <hr>
+    <h2>Il est préférable d'éviter d'utiliser des éléments inline-block à l'intérieur d'un élément inline.</h2>
+    <span style="background-color: lightblue;">
+        <div style="display: inline-block; width: 100px; height: 50px; background-color: rgb(68, 249, 68);">Inline-block</div>
+        <div style="display: inline-block; width: 150px; height: 50px; background-color: lightcoral;">Inline-block 2</div>
+    </span>
+    <hr>
+    <h2>Il est préférable d'éviter d'utiliser des éléments block à l'intérieur d'un élément inline.</h2>
+    <span style="background-color: lightblue;">
+        <div style="display: block; width: 100px; height: 50px; background-color: rgb(62, 238, 62);">Block</div>
+        <div style="display: inline-block; width: 150px; height: 50px; background-color: lightcoral;">Inline-block</div>
+    </span>
+    
+    
+</body>
+</html>

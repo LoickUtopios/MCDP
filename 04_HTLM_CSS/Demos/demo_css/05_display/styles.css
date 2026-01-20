@@ -1,0 +1,48 @@
+/*
+Les éléments avec display: block occupent toute la largeur disponible. Ils commencent sur une nouvelle ligne.
+*/
+.block {
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(38, 192, 244);
+}
+
+
+/*
+Les éléments avec display: inline n'interrompent pas le flux du texte et ne commencent pas sur une nouvelle ligne. 
+Ils ne peuvent pas avoir de propriétés de taille (width/height) appliquées directement.
+*/
+.inline {
+    display: inline;
+    margin: 10px;
+    background-color: rgb(42, 247, 42);
+}
+
+
+/*
+Les éléments avec display: inline-block se comportent comme des éléments en ligne (inline), 
+mais ils peuvent avoir des propriétés de taille (width/height).
+*/
+.inline-block {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    background-color: lightcoral;
+}
+
+/*
+Les éléments avec display: none ne sont pas rendus du tout. Ils ne prennent pas d'espace dans le layout de la page.
+Il est possible de les voir dans l'inspecteur.
+*/
+.none {
+    display: none;
+}
+
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+}
