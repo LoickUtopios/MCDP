@@ -1,4 +1,4 @@
-﻿//## Exercice — Message selon la note (switch expression)
+//## Exercice — Message selon la note (switch expression)
 
 //### Sujet
 

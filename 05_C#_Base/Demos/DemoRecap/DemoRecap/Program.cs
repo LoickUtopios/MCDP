@@ -295,9 +295,123 @@ chaine1 ??= "TATA"; // chaine n'est pas null, il reste "TITI"
 Console.WriteLine("Entrez un nombre : ");
 string? saisie = Console.ReadLine();
 
-
 bool conversionOk = int.TryParse(saisie, out int n); // n prendra la valeur convertie (si possible) ou null
 
 Console.WriteLine("Conversion réussi : " + conversionOk);
 Console.WriteLine("Valeur obtenue : " + n);
+Console.WriteLine();
 
+/* -------------------------------------------------------
+ * Structures itératives : while / do..while / for / foreach
+ * -------------------------------------------------------
+ * Donne un bloc itératif afin de répéter un bloc d'instructions à certaint nombre de fois
+ * 
+*/
+
+/* 
+ * While : boucle conditionnel
+ *  - La condition doit être vérifié AVANT d'enter dans la boucle
+ *  - Donc la boucle peut être executé 0 fois jusqu'à l'infinie (attention à la condition) 
+ * 
+*/
+
+Console.WriteLine("Boucle WHILE ");
+Console.WriteLine("Entrer un entier entre 1 et 5 : ");
+string saisieNb = Console.ReadLine();
+int nb; 
+
+while (!int.TryParse(saisieNb, out nb) || nb < 1 || nb > 5)
+{
+    Console.WriteLine("Saisie Invalide ! Entrer un entier entre 1 et 5 : ");
+    saisieNb = Console.ReadLine();
+}
+
+
+Console.WriteLine("Ok, valeur accepte : " + nb);
+Console.WriteLine();
+
+/* 
+ * Do...While : boucle conditionnel
+ *  - La condition doit être vérifié APRES d'enter dans la boucle
+ *  - Donc la boucle peut être executé au moins 1 fois jusqu'à l'infinie (attention à la condition) 
+ * 
+*/
+
+
+Console.WriteLine("Boucle DO..WHILE ");
+
+// la variable choice (étant dans notre condition) doit être déclarer
+// à l'extérieur de la boucle. 
+string choice;
+do
+{
+    Console.WriteLine("Menu: (a) Afficher heure | (b) Afficher date | (q) Quitter");
+    choice = Console.ReadLine();
+
+    if (choice == "a")
+        Console.WriteLine("Heure : " + DateTime.Now.ToString("HH:mm:ss"));
+    else if (choice == "b")
+        Console.WriteLine("Date : " + DateTime.Now.ToString("yyyy-MM-dd"));
+    else if (choice != "q")
+        Console.WriteLine("Choix invalide");
+
+} while (choice != "q");
+Console.WriteLine();
+
+
+/* 
+ * For : boucle itérative avec variable d'itération
+ *  - Nombre d'itération souvent connue à l'avance
+ *  - La variable (compteur / i) est déclarer dans le for 
+ * 
+*/
+
+Console.WriteLine("For : compteur de 1 a 5");
+
+for(int i = 1; i <= 5; i++)
+{
+    Console.WriteLine(i);
+}
+Console.WriteLine();
+
+/* 
+ * Foreach : boucle itérative sur une collections (tableaux, liste, ...)
+ *  - Pas besoin de connaitre la taille de la collections (elle sera entièrement parcourue)
+ * 
+*/
+
+
+Console.WriteLine("Foreach : afficher les lettres de l'alphabet");
+
+foreach (char lettre in "abcdefghijklmnopqrstuvwxyz")
+{
+    Console.Write(lettre + " - ");
+}
+Console.WriteLine();
+
+/* 
+ * break / continue (complément aux boucles)
+ *      - break : permet de sortir immédiatement de la boucle
+ *      - continue : passer à l'itération suivante
+*/
+
+
+Console.WriteLine("Utilisation du break et continue");
+
+for(int i = 0; i<= 10; i++)
+{
+    if (i == 5) 
+    {
+        Console.WriteLine("On passe le 5 avec continue");
+        continue; 
+    }
+
+    if (i == 8)
+    {
+        Console.WriteLine("Je suis arrivé au 8, je break et sors de la boucle");
+        break;
+    }
+
+    Console.WriteLine("Compteur : " + i);
+}
+Console.WriteLine();
