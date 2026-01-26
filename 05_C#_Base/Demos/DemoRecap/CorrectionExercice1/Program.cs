@@ -1,36 +1,42 @@
-﻿//# Exercice 11 Deviner un nombre (do…while)
+﻿//## Exercice FizzBuzz
 
-//Le programme choisit un nombre fixe (par exemple `7`).
-//L’utilisateur doit deviner ce nombre.
+//Écrire un programme qui affiche les nombres de **1 à 30**.
 
-//- Tant que l’utilisateur n’a pas trouvé le bon nombre, le programme redemande une saisie.
-//- Quand le nombre est trouvé, afficher `Bravo, nombre trouvé !`.
+//Pour chaque nombre :
 
-const int nombreSecret = 7;
+//-Si le nombre est divisible par **3**, afficher `Fizz`
+//- Si le nombre est divisible par **5**, afficher `Buzz`
+//- Si le nombre est divisible par **3 et par 5**, afficher `FizzBuzz`
+//- Sinon, afficher le nombre
 
-// Aléatoire
-Random rdm = new Random();
-int nombreSecretRandom = rdm.Next(1, 10);
-
-int proposition;
-
-do
+/* // Méthode 1 
+for(int i = 1; i <= 30; i++)
 {
-    Console.WriteLine("Deviner le nombre entre 1 et 10 : "); string? saisie = Console.ReadLine();
-
-    if (!int.TryParse(saisie, out proposition))
-    {
-        Console.WriteLine("Saisie invalide. Entrer un entier :");
-        saisie = Console.ReadLine();
-    }
-
-    if (proposition == nombreSecretRandom)
-    {
-        Console.WriteLine("Bravo, nombre trouvé !"); break;
-    }
-    else if (proposition < nombreSecretRandom)
-        Console.WriteLine("Plus grand !");
+    if (i % 5 == 0 && i % 3 == 0)
+        Console.WriteLine("FizzBuzz");
+    else if (i % 5 == 0)
+        Console.WriteLine("Buzz");
+    else if (i % 3 == 0)
+        Console.WriteLine("Fizz");
     else
-        Console.WriteLine("Plus petit !");
-} while (true);
+        Console.WriteLine(i); 
+}
+*/
 
+// Méthode 2 
+string result;
+for (int i = 1; i <= 30; i++)
+{
+    result = "";
+
+    if (i % 3 == 0)
+        result += "Fizz";
+
+    if (i % 5 == 0)
+        result += "Buzz";
+
+    if (result == "")
+        result += i; 
+
+    Console.WriteLine(result);
+}

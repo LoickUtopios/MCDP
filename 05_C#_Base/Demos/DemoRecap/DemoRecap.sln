@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectionExercice1", "Corr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTableau", "DemoTableau\DemoTableau.csproj", "{43A37D26-018D-4117-B50C-F97A34864E19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTuples", "DemoTuples\DemoTuples.csproj", "{6CDE3735-208F-4E86-A8E5-F41EC4A7D0BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{43A37D26-018D-4117-B50C-F97A34864E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A37D26-018D-4117-B50C-F97A34864E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A37D26-018D-4117-B50C-F97A34864E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDE3735-208F-4E86-A8E5-F41EC4A7D0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDE3735-208F-4E86-A8E5-F41EC4A7D0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDE3735-208F-4E86-A8E5-F41EC4A7D0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDE3735-208F-4E86-A8E5-F41EC4A7D0BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\bin\Debug\net9.0\DemoTuples.exe
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\bin\Debug\net9.0\DemoTuples.deps.json
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\bin\Debug\net9.0\DemoTuples.runtimeconfig.json
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\bin\Debug\net9.0\DemoTuples.dll
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\bin\Debug\net9.0\DemoTuples.pdb
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\DemoTuples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\DemoTuples.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\DemoTuples.AssemblyInfo.cs
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\DemoTuples.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\DemoTuples.sourcelink.json
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\DemoTuples.dll
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\refint\DemoTuples.dll
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\DemoTuples.pdb
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\DemoTuples.genruntimeconfig.cache
+C:\Users\Admin\Desktop\MCDP\05_C#_Base\Demos\DemoRecap\DemoTuples\obj\Debug\net9.0\ref\DemoTuples.dll
