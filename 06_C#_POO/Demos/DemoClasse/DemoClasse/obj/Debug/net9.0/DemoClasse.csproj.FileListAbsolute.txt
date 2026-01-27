@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\bin\Debug\net9.0\DemoClasse.exe
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\bin\Debug\net9.0\DemoClasse.deps.json
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\bin\Debug\net9.0\DemoClasse.runtimeconfig.json
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\bin\Debug\net9.0\DemoClasse.dll
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\bin\Debug\net9.0\DemoClasse.pdb
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\DemoClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\DemoClasse.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\DemoClasse.AssemblyInfo.cs
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\DemoClasse.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\DemoClasse.sourcelink.json
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\DemoClasse.dll
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\refint\DemoClasse.dll
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\DemoClasse.pdb
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\DemoClasse.genruntimeconfig.cache
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoClasse\obj\Debug\net9.0\ref\DemoClasse.dll
