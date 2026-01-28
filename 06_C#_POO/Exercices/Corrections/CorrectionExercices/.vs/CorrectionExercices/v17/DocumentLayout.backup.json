@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC68F02C-561E-4E74-B764-CA0FAE3F9A82}|Exercice3\\Exercice3.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\exercices\\corrections\\correctionexercices\\exercice3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC68F02C-561E-4E74-B764-CA0FAE3F9A82}|Exercice3\\Exercice3.csproj|solutionrelative:exercice3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62DC5F85-C504-4A0E-8EC3-06A9FFF184B0}|Exercice5\\Exercice5.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\exercices\\corrections\\correctionexercices\\exercice5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DC5F85-C504-4A0E-8EC3-06A9FFF184B0}|Exercice5\\Exercice5.csproj|solutionrelative:exercice5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC68F02C-561E-4E74-B764-CA0FAE3F9A82}|Exercice3\\Exercice3.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\exercices\\corrections\\correctionexercices\\exercice3\\classes\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC68F02C-561E-4E74-B764-CA0FAE3F9A82}|Exercice3\\Exercice3.csproj|solutionrelative:exercice3\\classes\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D90F5F8-43C9-4069-87F9-C2AD0104746D}|Exercice2\\Exercice2.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\exercices\\corrections\\correctionexercices\\exercice2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D90F5F8-43C9-4069-87F9-C2AD0104746D}|Exercice2\\Exercice2.csproj|solutionrelative:exercice2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D90F5F8-43C9-4069-87F9-C2AD0104746D}|Exercice2\\Exercice2.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\exercices\\corrections\\correctionexercices\\exercice2\\classes\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D90F5F8-43C9-4069-87F9-C2AD0104746D}|Exercice2\\Exercice2.csproj|solutionrelative:exercice2\\classes\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62DC5F85-C504-4A0E-8EC3-06A9FFF184B0}|Exercice5\\Exercice5.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\exercices\\corrections\\correctionexercices\\exercice5\\classes\\salarie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DC5F85-C504-4A0E-8EC3-06A9FFF184B0}|Exercice5\\Exercice5.csproj|solutionrelative:exercice5\\classes\\salarie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Personnage.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice3\\Classes\\Personnage.cs",
-              "RelativeDocumentMoniker": "Exercice3\\Classes\\Personnage.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice3\\Classes\\Personnage.cs",
-              "RelativeToolTip": "Exercice3\\Classes\\Personnage.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCYAAAAFAAAAAAAAAA==",
+              "Title": "Salarie.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice5\\Classes\\Salarie.cs",
+              "RelativeDocumentMoniker": "Exercice5\\Classes\\Salarie.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice5\\Classes\\Salarie.cs",
+              "RelativeToolTip": "Exercice5\\Classes\\Salarie.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T15:14:00.131Z",
+              "WhenOpened": "2026-01-28T09:18:33.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice3\\Program.cs",
-              "RelativeDocumentMoniker": "Exercice3\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice3\\Program.cs",
-              "RelativeToolTip": "Exercice3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice5\\Program.cs",
+              "RelativeDocumentMoniker": "Exercice5\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice5\\Program.cs",
+              "RelativeToolTip": "Exercice5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T15:13:35.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Rectangle.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice2\\Classes\\Rectangle.cs",
-              "RelativeDocumentMoniker": "Exercice2\\Classes\\Rectangle.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice2\\Classes\\Rectangle.cs",
-              "RelativeToolTip": "Exercice2\\Classes\\Rectangle.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T15:02:10.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice2\\Program.cs",
-              "RelativeDocumentMoniker": "Exercice2\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Exercices\\Corrections\\CorrectionExercices\\Exercice2\\Program.cs",
-              "RelativeToolTip": "Exercice2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T14:59:18.631Z",
+              "WhenOpened": "2026-01-28T09:18:00.137Z",
               "EditorCaption": ""
             }
           ]

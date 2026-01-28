@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\bin\Debug\net9.0\DemoHeritage.exe
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\bin\Debug\net9.0\DemoHeritage.deps.json
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\bin\Debug\net9.0\DemoHeritage.runtimeconfig.json
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\bin\Debug\net9.0\DemoHeritage.dll
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\bin\Debug\net9.0\DemoHeritage.pdb
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\DemoHeritage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\DemoHeritage.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\DemoHeritage.AssemblyInfo.cs
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\DemoHeritage.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\DemoHeritage.sourcelink.json
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\DemoHeritage.dll
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\refint\DemoHeritage.dll
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\DemoHeritage.pdb
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\DemoHeritage.genruntimeconfig.cache
+C:\Users\Admin\Desktop\MCDP\06_C#_POO\Demos\DemoClasse\DemoHeritage\obj\Debug\net9.0\ref\DemoHeritage.dll

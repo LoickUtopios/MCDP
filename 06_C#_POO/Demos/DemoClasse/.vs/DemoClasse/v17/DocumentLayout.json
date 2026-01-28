@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45375D1E-5483-4093-BE7E-2A072BBF0EA2}|DemoClasse\\DemoClasse.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\demos\\democlasse\\democlasse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45375D1E-5483-4093-BE7E-2A072BBF0EA2}|DemoClasse\\DemoClasse.csproj|solutionrelative:democlasse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{422619BB-5D90-4DC0-981C-8B6B8FFC77CD}|DemoHeritage\\DemoHeritage.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\demos\\democlasse\\demoheritage\\classes\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422619BB-5D90-4DC0-981C-8B6B8FFC77CD}|DemoHeritage\\DemoHeritage.csproj|solutionrelative:demoheritage\\classes\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45375D1E-5483-4093-BE7E-2A072BBF0EA2}|DemoClasse\\DemoClasse.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\demos\\democlasse\\democlasse\\classes\\voiture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45375D1E-5483-4093-BE7E-2A072BBF0EA2}|DemoClasse\\DemoClasse.csproj|solutionrelative:democlasse\\classes\\voiture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{422619BB-5D90-4DC0-981C-8B6B8FFC77CD}|DemoHeritage\\DemoHeritage.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\demos\\democlasse\\demoheritage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422619BB-5D90-4DC0-981C-8B6B8FFC77CD}|DemoHeritage\\DemoHeritage.csproj|solutionrelative:demoheritage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422619BB-5D90-4DC0-981C-8B6B8FFC77CD}|DemoHeritage\\DemoHeritage.csproj|c:\\users\\admin\\desktop\\mcdp\\06_c#_poo\\demos\\democlasse\\demoheritage\\classes\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422619BB-5D90-4DC0-981C-8B6B8FFC77CD}|DemoHeritage\\DemoHeritage.csproj|solutionrelative:demoheritage\\classes\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Voiture.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoClasse\\Classes\\Voiture.cs",
-              "RelativeDocumentMoniker": "DemoClasse\\Classes\\Voiture.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoClasse\\Classes\\Voiture.cs",
-              "RelativeToolTip": "DemoClasse\\Classes\\Voiture.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAmwFkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Chien.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoHeritage\\Classes\\Chien.cs",
+              "RelativeDocumentMoniker": "DemoHeritage\\Classes\\Chien.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoHeritage\\Classes\\Chien.cs",
+              "RelativeToolTip": "DemoHeritage\\Classes\\Chien.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T08:30:50.566Z",
+              "WhenOpened": "2026-01-28T10:19:30.368Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoClasse\\Program.cs",
-              "RelativeDocumentMoniker": "DemoClasse\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoClasse\\Program.cs",
-              "RelativeToolTip": "DemoClasse\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoHeritage\\Classes\\Animal.cs",
+              "RelativeDocumentMoniker": "DemoHeritage\\Classes\\Animal.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoHeritage\\Classes\\Animal.cs",
+              "RelativeToolTip": "DemoHeritage\\Classes\\Animal.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T08:24:59.914Z",
+              "WhenOpened": "2026-01-28T10:19:23.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoHeritage\\Program.cs",
+              "RelativeDocumentMoniker": "DemoHeritage\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MCDP\\06_C#_POO\\Demos\\DemoClasse\\DemoHeritage\\Program.cs",
+              "RelativeToolTip": "DemoHeritage\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T10:18:53.451Z",
               "EditorCaption": ""
             }
           ]
